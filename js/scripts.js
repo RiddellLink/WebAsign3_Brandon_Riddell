@@ -123,7 +123,7 @@ var pages = [{
 },
     {
     //target 5
-    'title': "Sandwhich End",
+    'title': "Sandwich End",
     'bg':'imgs/sandwhich.png',
     'text': "You are not sure why you decided to make a sandwich 10 minutes before class, but you can’t function unless you have enough sustenance to conquer the day. You rummage through your fridge finding the premium sandwich ingredients to craft your magnum opus. You forge a sandwich that the gods would be proud of and take a bite of the best sandwich you have ever had. This sandwich can’t be eaten in a rush, you take your time and savour in the favour…who needs class when you got this beauty right in front of you.",
         'type': 'choice',

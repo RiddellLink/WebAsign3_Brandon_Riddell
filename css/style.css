@@ -5,28 +5,19 @@
 body {
     min-height: 50vh;
     font-family: arial, sans-serif;
-   
     color: rgb(230, 93, 157);
-
-    /* color: rgb(232, 139, 255); */
-    
-    
-    background-color: #f07d7d;
-   
+    /* background-color: #f07d7d; */
+    background-color: #e08282;
     background-size: cover;
     background-position: center;
 }
 
-
 .wrapper{
     padding: 185px;
-    
 }
 
 .wrapperAdventure{
-   
     padding: 140px 185px 0px 185px;
-  
 }
 .center{
     text-align: center;
@@ -36,13 +27,11 @@ body {
     display: none;
 } 
 
-
 .background{
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 1025px;
-    
 }
 
 .backg2{
@@ -60,9 +49,7 @@ body {
 h1{
     font-size: 60pt;
     letter-spacing: 1px;
-    
     text-shadow: 4px 4px 3px black;
-    
 }
 
 p{
@@ -81,25 +68,31 @@ p{
     background-color: #000000b0;
     padding: 20px;
 }
+.pbox2{
+    background-color: rgba(70, 28, 44, 0.973);
+    padding: 10px;
+    padding-bottom: 40px;
+    border-radius: 200px;
+}
 
 .button{
     border-radius: 100px;
     padding: 30px 112px;
     text-decoration: none;
     display: inline-block;
-    font-size: 70px;
+    font-size: 90px;
     color: rgb(32, 32, 32);
     
-    background-color: #48f6fc;
+    background-color: #f07d7d;
     box-shadow: 7px 3px black;
 }
 
 .button:hover{
-    background-color: #8bf3f7;
+    background-color: #f5aaaa;
     color: white;
-    transition: 0.6s;
+    transition: 0.3s;
     cursor: pointer;
-    box-shadow: 7px 3px #c7fdff;
+    box-shadow: 7px 3px #f8e2e2;
 }
 
 .choice {
@@ -111,18 +104,18 @@ p{
     margin-bottom: 60px;
     
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     color: rgb(38, 37, 37);
-    background-color: #48f6fc;
+    background-color: #f07d7d;
     box-shadow: 7px 3px black;
   }
 
 .choice:hover{
-    background-color: #8bf3f7;
+    background-color: #f5aaaa;
     color: white;
-    transition: 0.6s;
+    transition: 0.3s;
     cursor: pointer;
-    box-shadow: 7px 3px #c7fdff;
+    box-shadow: 7px 3px #f8e2e2;
 }
 
 

@@ -1,11 +1,13 @@
 
 var current_page = 0;
 
+//the main menu clear button
 $('#button').on('click', function(){
     $('#start').toggle();
     $('#adventure').toggle();
 })
 
+//the chocie navigation function
 $(document).ready(function () {
     loadPage(0);
     $('#response').on('click', '.choice', function () {
@@ -14,6 +16,7 @@ $(document).ready(function () {
     });
 });
 
+//load all the data of the page
 function loadPage(id) {
     var pageData = pages[id];
 
@@ -29,22 +32,24 @@ function loadPage(id) {
         }
     }
 }
-
+//adds the text box
 function setPageText(text) {
     $("#pageText").append("<p class= pbox>" + text + "</p>");
 }
-
+//adds the end conditions
 function addChoice(text, target) {
     $("#response").append("<h2 class=choice data-target=" + target + ">" + text + "</h2>");
 }
+//adds the end conditions
 function addTitle(text){
     $('#title').append("<h1 class='center'>" + text + "<h1>");
 }
+//adds backgorunds
 function addBackground(text){
-   
     $(".background").css("background-image", "url(" + text +")");
 }
 
+//Clears Text on Page
 function clearPage() {
     $("#pageText").empty();
     $("#response").empty();

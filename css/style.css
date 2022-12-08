@@ -46,7 +46,7 @@ body {
 }
 
 .backg2{
-    background-image: url("/imgs/uni.png");
+    background-image: url("../imgs/uni.png");
     background-size: cover;
     background-position: center;
     height: 1025px;

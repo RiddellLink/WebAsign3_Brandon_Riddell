@@ -46,7 +46,7 @@ body {
 }
 
 .backg2{
-    background-image: url("/imgs/uni.png");
+    background-image: url("./imgs/uni.png");
     background-size: cover;
     background-position: center;
     height: 1025px;
@@ -84,7 +84,6 @@ p{
 
 .button{
     border-radius: 100px;
-   
     padding: 30px 112px;
     text-decoration: none;
     display: inline-block;
@@ -102,7 +101,6 @@ p{
     cursor: pointer;
     box-shadow: 7px 3px #c7fdff;
 }
-
 
 .choice {
     border-radius: 100px;

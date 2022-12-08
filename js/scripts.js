@@ -15,7 +15,6 @@ $(document).ready(function () {
 });
 
 function loadPage(id) {
-    // Fetch JSON for page data associated with given ID
     var pageData = pages[id];
 
     clearPage();
@@ -46,14 +45,11 @@ function addBackground(text){
     $(".background").css("background-image", "url(" + text +")");
 }
 
-
 function clearPage() {
     $("#pageText").empty();
     $("#response").empty();
     $("#title").empty();
 }
-
-
 
 // Page data
 var pages = [{
